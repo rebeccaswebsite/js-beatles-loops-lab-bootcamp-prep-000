@@ -21,11 +21,11 @@ function johnLennonFacts(facts) {
   return arrayName;
 }
 
-function iLoveTheBeatles(n) {
+function iLoveTheBeatles(number) {
   var arrayName = [];
     do {
       console.log("I love the Beatles!");
-      n = n+1;
-    } while (n < 15);
+      number = number+1;
+    } while (number < 15);
   return arrayName; 
 }
